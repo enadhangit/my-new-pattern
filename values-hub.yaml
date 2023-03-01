@@ -10,6 +10,9 @@ clusterGroup:
     - hello-world
 
   subscriptions:
+    amq-streams:
+      name: amq-streams
+      namespace: lab-kafka
     acm:
       name: advanced-cluster-management
       namespace: open-cluster-management
